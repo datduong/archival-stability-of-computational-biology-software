@@ -1,3 +1,5 @@
+## make a .sh script to auto download files. 
+
 import re
 fin = open ("/u/flashscratch/d/datduong/pubmedAbstractBaseLineYearly/index.html",'r')
 script = "" 
