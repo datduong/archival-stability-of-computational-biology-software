@@ -11,7 +11,7 @@ for line in fin:
   path = re.sub ( "\"","",path )
   if "gz.md5" in path: 
     continue
-  script = script + "wget " + path + " -O /u/flashscratch/d/datduong/pubmedAbstractBaseLineYearly/baseline \n"
+  script = script + "wget " + path + " -P /u/flashscratch/d/datduong/pubmedAbstractBaseLineYearly/baseline \n"
 
 fout = open ("/u/flashscratch/d/datduong/pubmedAbstractBaseLineYearly/download.sh",'w')
 fout.write(script)
