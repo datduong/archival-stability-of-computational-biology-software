@@ -3,7 +3,7 @@ The entire open access data in XML can be downloaded at
 
 > ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/
 
-We download and extract the files: ```article[something].txt.tar.gz.```
+We download and extract the files: ```articles[something].txt.tar.gz.```
 
 We focus only on these journals
 
