@@ -15,6 +15,9 @@ getHttpStatus(paperName,'body') ## get http links in body
 ## PubmedId, Year, KeyWord related to link, Link, LinkStatus, StatusCode. 
 ## '18628289 2008 download http://www.systemsbiology.co.kr/PathCluster/ -1 '
 
+## KeyWords are: 
+# "here", "pipeline", "code", "software", "available", "publicly", "tool", "method", "algorithm", "download", "application", "apply", "package", "library" 
+
 ## Status code: 
 # -1 is Connection Timeout 
 # 200-299: working link
