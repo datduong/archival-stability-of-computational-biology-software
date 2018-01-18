@@ -20,6 +20,6 @@ Nat_Biotechnol
 Nucleic_Acids_Res
 ```
 
-As an example, consider the paper ```PMC2427163.nxml``` (included here). This file is in XML format. Go inside code ```getAbstract.py```, run the code to extract the software links in this paper. 
+As an example, consider the paper ```PMC2427163.nxml``` (included here). This file is in XML format. Go inside code ```getLinksStatus.py```, run the code to extract the software links in this paper. 
 
-Description of the output are found inside ```getAbstract.py```.
+Description of the output are found inside ```getLinksStatus.py```.
