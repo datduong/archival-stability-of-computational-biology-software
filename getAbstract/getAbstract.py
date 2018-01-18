@@ -4,12 +4,11 @@ import os,re,sys
 import argparse
 import httplib
 from urlparse import urlparse
-
 from urlXmlUtil import * 
   
- 
 paperName = "/u/flashscratch/d/datduong/pubmedArticle4Dec17/journalWanted/Bioinformatics/PMC2530882.nxml" 
-getHttpStatus(paperName,'abstract')
+getHttpStatus(paperName,'abstract') ## get http links in abstract
+getHttpStatus(paperName,'body') ## get http links in body
 
 ## see outpt in the format
 ## PubmedId, Year, KeyWord related to link, Link, LinkStatus, StatusCode. 
