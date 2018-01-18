@@ -22,6 +22,6 @@ Nucleic_Acids_Res
 
 As an example, consider the paper ```PMC2427163.nxml``` (included here). This file is in XML format. 
 
-Download all the python scripts. Go inside ```getLinksStatus.py```, run the code to extract the software links in this paper. 
+Download the example XML and all python scripts. Go inside ```getLinksStatus.py```, run the code to extract the software links in this paper. 
 
 Description of the output are found inside ```getLinksStatus.py```.
