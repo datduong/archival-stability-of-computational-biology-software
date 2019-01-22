@@ -48,15 +48,19 @@ def getPaperYear( paperName ):
 	return paperYear
 	
 def isSoftware (text, link): # @text should be full text (not @abstract)
-  linkSpan = re.search(re.escape(link), text).span() # position of link 
-  left = linkSpan[0]-75 ## character including spacing. so ... about 5-10 words 
-  if left < 0:
-    left = 0
-  right = linkSpan[1]+75
-  if right > len(text):
+	linkSpan = re.search(re.escape(link), text).span() # position of link 
+	left = linkSpan[0]-75 ## character including spacing. so ... about 5-10 words 
+	if left < 0:
+		left = 0
+
+	right = linkSpan[1]+75
+
+	if right > len(text):
 		right = len(text)
+
 	leftWindow = text [ left : linkSpan[0] ] ## look left 
 	rightWindow = text [ linkSpan[1] : right ] ## look right
+
 	#
 	TARGET = [ "here", "pipeline", "code", "software", "available", "publicly", "tool", "method", "algorithm", "download", "application", "apply", "package", "library" ] 
 	for targetTagWord in TARGET: 
