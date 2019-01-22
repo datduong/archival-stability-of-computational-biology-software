@@ -46,11 +46,11 @@ getHttpStatus(paperName,'abstract') ## get http links in abstract
 ## 2008 is the year of this paper. 
 ## www.oboedit.org is the 1st link found in the abstract, and the HTTP status is -1. 
 ## http://compbio.uchsc.edu/Hunter_lab/Bada/nonalignments_2008_03_06.html is the 2nd link found in the abstract and the HTTP status is -1
-```
 
-To get the links inside the body of the paper, paste next line of code: 
-```
+## To get the links inside the body of the paper, paste next line of code: 
+
 getHttpStatus(paperName,'body')
+
 ```
 
 We focus on the follow groups of HTTP status: 
