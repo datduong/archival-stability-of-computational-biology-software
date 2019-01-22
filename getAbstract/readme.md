@@ -5,11 +5,15 @@ The entire open access data in XML can be downloaded at
 
 We download and extract the files: ```[something].xml.tar.gz.``` For example, you can download one set by using 
 
-```wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/non_comm_use.A-B.xml.tar.gz```
+```
+wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/non_comm_use.A-B.xml.tar.gz
+```
 
 Then extract it
-```mkdir pubDataOpenAccXml```
-```tar -xf non_comm_use.A-B.xml.tar.gz -C pubDataOpenAccXml/comm_use.A-B```
+```
+mkdir pubDataOpenAccXml
+tar -xf non_comm_use.A-B.xml.tar.gz -C pubDataOpenAccXml/comm_use.A-B
+```
 
 We focus only on these journals
 
