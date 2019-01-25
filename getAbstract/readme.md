@@ -15,6 +15,8 @@ mkdir pubDataOpenAccXml
 tar -xf non_comm_use.A-B.xml.tar.gz -C pubDataOpenAccXml/comm_use.A-B
 ```
 
+To avoid having you downloading very large data, in this github, we provide an example for the journal Nature Methods ```Nat_Methods```. You can use extract this zip folder ```tar -xf Nat_Methods.tar.gz -C Nat_Methods```. You will see there are 505 open accessed papers. 
+
 We focus only on these journals
 
 ```
